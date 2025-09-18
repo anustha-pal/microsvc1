@@ -36,6 +36,6 @@ jobs:
         run: az acr login --name myacresgitry
 
       - name: Push Docker Image
-        run: docker myacresgitry.azurecr.io/node-micro:latest
+        run: docker push myacresgitry.azurecr.io/node-micro:latest
 
     
